@@ -36,11 +36,8 @@ This project demonstrates how to set up and manage three SQLite databases (`User
    ```
 
 ## Usage
-1. Run the database setup script:
-   ```bash
-   python setup_databases.py
-   ```
-2. Run the main script to insert data concurrently:
+
+1. Run the main script to insert data concurrently:
    ```bash
    python main.py
    ```
