@@ -1,0 +1,38 @@
+2024-12-10 22:58:04,194 - INFO - Starting database setup.
+2024-12-10 22:58:04,194 - INFO - Starting database setup.
+2024-12-10 22:58:04,232 - INFO - Users database setup completed.
+2024-12-10 22:58:04,252 - INFO - Products database setup completed.
+2024-12-10 22:58:04,272 - INFO - Orders database setup completed.
+2024-12-10 22:58:04,273 - INFO - All databases set up successfully.
+2024-12-10 22:58:04,273 - INFO - Starting threads for data insertion.
+2024-12-10 22:58:04,280 - INFO - User inserted: (1, 'Alice', 'alice@example.com')
+2024-12-10 22:58:04,281 - INFO - User inserted: (2, 'Bob', 'bob@example.com')
+2024-12-10 22:58:04,281 - INFO - User inserted: (3, 'Charlie', 'charlie@example.com')
+2024-12-10 22:58:04,281 - INFO - User inserted: (4, 'David', 'david@example.com')
+2024-12-10 22:58:04,282 - INFO - Product inserted: (1, 'Laptop', 1000.0)
+2024-12-10 22:58:04,282 - INFO - Order inserted: (1, 1, 1, 2)
+2024-12-10 22:58:04,282 - INFO - User inserted: (5, 'Eve', 'eve@example.com')
+2024-12-10 22:58:04,283 - INFO - Product inserted: (2, 'Smartphone', 700.0)
+2024-12-10 22:58:04,283 - INFO - Order inserted: (2, 2, 2, 1)
+2024-12-10 22:58:04,283 - INFO - User inserted: (6, 'Frank', 'frank@example.com')
+2024-12-10 22:58:04,284 - INFO - Product inserted: (3, 'Headphones', 150.0)
+2024-12-10 22:58:04,284 - INFO - Order inserted: (3, 3, 3, 5)
+2024-12-10 22:58:04,285 - INFO - Product inserted: (4, 'Monitor', 300.0)
+2024-12-10 22:58:04,285 - INFO - User inserted: (7, 'Grace', 'grace@example.com')
+2024-12-10 22:58:04,286 - INFO - Product inserted: (5, 'Keyboard', 50.0)
+2024-12-10 22:58:04,286 - INFO - Product inserted: (6, 'Mouse', 30.0)
+2024-12-10 22:58:04,286 - ERROR - Users Insert Error: (8, 'Alice', 'alice@example.com') -> UNIQUE constraint failed: Users.email
+2024-12-10 22:58:04,287 - INFO - Product inserted: (7, 'Laptop', 1000.0)
+2024-12-10 22:58:04,287 - INFO - Product inserted: (8, 'Smartwatch', 250.0)
+2024-12-10 22:58:04,287 - INFO - User inserted: (9, 'Henry', 'henry@example.com')
+2024-12-10 22:58:04,288 - WARNING - Invalid user data: (10, None, 'jane@example.com')
+2024-12-10 22:58:04,288 - INFO - Product inserted: (9, 'Gaming Chair', 500.0)
+2024-12-10 22:58:04,288 - INFO - Order inserted: (4, 4, 4, 1)
+2024-12-10 22:58:04,289 - WARNING - Invalid product data: (10, 'Earbuds', -50.0)
+2024-12-10 22:58:04,289 - INFO - Order inserted: (5, 5, 5, 3)
+2024-12-10 22:58:04,290 - INFO - Order inserted: (6, 6, 6, 4)
+2024-12-10 22:58:04,290 - INFO - Order inserted: (7, 7, 7, 2)
+2024-12-10 22:58:04,290 - WARNING - Invalid order data: (8, 8, 8, 0)
+2024-12-10 22:58:04,290 - WARNING - Invalid order data: (9, 9, 1, -1)
+2024-12-10 22:58:04,291 - INFO - Order inserted: (10, 10, 11, 2)
+2024-12-10 22:58:04,328 - INFO - Data insertion completed.
